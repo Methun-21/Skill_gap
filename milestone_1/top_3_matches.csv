@@ -1,0 +1,31 @@
+Resume Skill,JD Match 1,Score 1,JD Match 2,Score 2,JD Match 3,Score 3
+AI Integration,machine learning,0.44930127263069153,algorithms,0.3756290078163147,,
+Adaptability,machine learning,0.3061869144439697,,,,
+Algorithms,algorithms,1.000000238418579,machine learning,0.5814359188079834,Python,0.3778272867202759
+C++,Python,0.4453253149986267,algorithms,0.42475706338882446,machine learning,0.36748161911964417
+CSS,machine learning,0.3042575716972351,Pandas,0.30303677916526794,,
+Cloud,machine learning,0.3230687379837036,,,,
+DBMS,machine learning,0.36405566334724426,,,,
+Data Engineering,machine learning,0.41287824511528015,algorithms,0.36785888671875,Python,0.33699750900268555
+Data Structures,algorithms,0.46278128027915955,machine learning,0.39178964495658875,,
+Deep Analyzer,machine learning,0.39095550775527954,Scikit-learn,0.3765227198600769,algorithms,0.3063722550868988
+Flask,Python,0.4768061935901642,Pandas,0.3714224696159363,NumPy,0.3265146315097809
+Full Stack Development,,,,,,
+HTML,machine learning,0.32256263494491577,,,,
+JavaScript,machine learning,0.3587949573993683,Python,0.3106142282485962,,
+Machine Learning,machine learning,1.0,algorithms,0.5814359784126282,Scikit-learn,0.3748840093612671
+Matplotlib,NumPy,0.5437121391296387,Python,0.49805647134780884,Pandas,0.4256758689880371
+NumPy,NumPy,1.0,Python,0.5541949272155762,Pandas,0.44759947061538696
+OOP,Python,0.322526216506958,,,,
+Operating Systems,Python,0.35786110162734985,algorithms,0.3375004529953003,,
+Pandas,Pandas,1.0,Python,0.4647839665412903,Scikit-learn,0.4584287405014038
+Problem Solving,algorithms,0.4432355761528015,machine learning,0.3742554783821106,,
+Python,Python,1.000000238418579,NumPy,0.5541950464248657,Pandas,0.4647839367389679
+Quick Learner,machine learning,0.5072950720787048,Scikit-learn,0.4471229612827301,Python,0.37275028228759766
+React,,,,,,
+SQL,machine learning,0.3168969750404358,,,,
+Seaborn,Pandas,0.3547760546207428,,,,
+Self-Learning,machine learning,0.5870752334594727,algorithms,0.38377416133880615,Scikit-learn,0.3656042218208313
+Sklearn,Scikit-learn,0.59607994556427,Python,0.48964568972587585,Pandas,0.4142046570777893
+Software Engineering,Python,0.3949161767959595,algorithms,0.3637109398841858,machine learning,0.33260640501976013
+Team Collaboration,,,,,,

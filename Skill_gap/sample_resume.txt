@@ -1,0 +1,72 @@
+Methunraj A	J +91-7708847437
+Bachelor of Technology	II methunraja7393@gmail.com
+SRM Institute of Science and Technology, Tiruchirappalli	fm LinkedIn Profile
+0 Github Profile
+Education	
+• Bachelor of Technology in Computer Science and Engineering	2023-27
+SRM Institute of Science and Technology,Tiruchirappalli	CGPA: 9.33
+• 12th Grade	2022-23
+Bharani Park Matric Hr Sec School, Karur	Percentage: 82.6
+• 10th Grade	2020-21
+Gurudevar Matric Hr Sec School, Karur	Percentage: 81.8
+
+Personal Projects
+• Lost and Found Management System: A full-stack web app for reporting and retrieving lost/found items.
+-Built a web app to report, search, and match lost/found items.
+-Frontend: React (Vite + TypeScript) with Tailwind CSS and Shadcn UI.
+-Backend: Flask REST API, MySQL for secure storage.
+-Implemented user authentication, image uploads, and advanced search/filter.
+-Added an AI-based image similarity feature to suggest matches.
+• Property Price Prediction: A machine learning model to predict property prices.
+-Built models (Linear, Multiple Regression, XGBoost) for California housing prices.
+-Performed EDA, feature engineering, model evaluation (RMSE, R2).
+-Achieved best accuracy with XGBoost.
+• Customer Churn Prediction: Supervised ML solution to predict telecom customer churn using classification models.
+-Performed data analysis, preprocessing, and feature selection on telecom datasets.
+-Implemented models: Logistic Regression, Decision Trees, Random Forests, SVM.
+-Evaluated performance via confusion matrix, precision, recall, F1-score.
+-Visualized feature importance and deployed results to support retention strategies.
+Experience	
+• Infosys Virtual Internship 6.0	Aug - Present 2025
+Infosys Springboard	Online
+- Developing backend and automation with Python technology stack.
+- Building RESTful services and scripts for real-world business scenarios.
+- Collaborating in online team challenge labs and completing hands-on modules.
+• Deloitte Australia Technology Job Simulation	July 2025 Forage		Online
+- Completed a virtual job simulation focused on development and coding tasks.
+- Wrote a project proposal for creating a dashboard solution.
+• Defence Research & Development Organisation, CVRDE, Avadi	Jun - Jul 2025 DRDO		Hybrid
+- Project: Development of Computer-Aided Process Planning for Objects with Bézier Curve Profile.
+- Developed toolpaths using quintic Bézier curves for CNC process planning.
+- Extracted control points, reconstructed curves, performed Bernstein polynomial analysis.
+• AWS Data Engineering Virtual Internship	Jan - Mar 2025 AICTE-Eduskills		Online
+- Worked with AWS Glue, Redshift, S3, Athena.
+- Built data pipelines and ETL workflows for structured/unstructured data.
+- Learned data ingestion, transformation, storage, and query practices.
+
+• Generative AI Virtual Internship	Oct - Dec 2024
+AICTE-Eduskills	Online
+- Explored GenAI fundamentals: LLMs, prompt engineering, text/image generation.
+- Used Google Vertex AI, OpenAI API for generative projects.
+- Applied AI-generated content and human-in-loop workflows.
+• AI/ML Virtual Internship	Jul - Sep 2024
+AICTE-Eduskills	Online
+- Learned supervised/unsupervised ML, model evaluation.
+- Implemented projects with Python, Scikit-learn.
+- Performed preprocessing, feature selection, optimization.
+
+Research & Publications
+• Green Task: A Carbon-Aware Scheduling Algorithm for Enhancing Energy Efficiency in Edge-Fog Computing System
+Published in International Journal for Science and Advanced Technology (IJSAT), Vol. 16, Issue 3, July-September 2025
+Co-authored a research paper proposing a carbon-aware task scheduling algorithm for edge-fog computing environments. Integrated system-level task allocation to reduce carbon footprint while maintaining performance. Led complexity analysis and simulation evaluation with a multidisciplinary team.
+Technical Skills and Interests
+Languages: Python, C/C++, SQL, JavaScript, HTML, CSS Libraries/Tools: React, NumPy, Pandas, Matplotlib, Seaborn, Sklearn Frameworks: Flask
+Coursework: Data Structures & Algorithms, DBMS, Operating Systems, OOP
+Interests: Software Engineering, Full Stack Development, Cloud & AI Integration, Machine Learning, Data Engineering
+Soft Skills: Problem Solving, Self-Learning, Quick Learner, Adaptability, Team Collaboration, Deep Analyzer
+Certifications
+• Certified Machine Learning, Internshala
+• Introduction to Computer Vision and Image Processing, IBM
+• Certificate of Participation, Learnathon 2024
+• Certificate of Participation, Tata Imagination Challenge
+• NPTEL - Joy of Computing and Database Management System

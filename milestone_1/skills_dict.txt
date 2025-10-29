@@ -1,0 +1,53 @@
+Python
+C/C++
+SQL
+JavaScript
+React
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Scikit-learn
+Flask
+XGBoost
+MySQL
+Redshift
+S3
+Athena
+ETL workflows
+Deep Learning
+NLP
+Time Series
+MLOps
+PyTorch
+TensorFlow
+LLMs
+Google Vertex AI
+Generative AI
+Automation
+Data Structures
+Algorithms
+Computer Vision
+Model Deployment
+ML Models
+EDA
+Feature Engineering
+Model Evaluation
+CI/CD
+Spark
+Databricks
+Problem Solving
+Self-Learning
+Adaptability
+Team Collaboration
+Deep Analyzer
+Leadership
+Project Management
+Budget Planning
+Communication
+Customer Relations
+Critical Thinking
+Analytics Processes
+Recruitment
+Product Development
+Sales Strategies

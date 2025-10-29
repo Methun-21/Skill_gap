@@ -1,0 +1,17 @@
+{
+    "ML": "Machine Learning",
+    "DL": "Deep Learning",
+    "AI": "Artificial Intelligence",
+    "NLP": "Natural Language Processing",
+    "CV": "Computer Vision",
+    "K8S": "Kubernetes",
+    "GCP": "Google Cloud Platform",
+    "AWS": "Amazon Web Services",
+    "CI/CD": "Continuous Integration/Continuous Deployment",
+    "SQL": "Structured Query Language",
+    "API": "Application Programming Interface",
+    "OS": "Operating System",
+    "DB": "Database",
+    "JS": "JavaScript",
+    "HR": "Human Resources"
+}

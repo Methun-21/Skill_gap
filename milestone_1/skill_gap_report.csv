@@ -1,0 +1,10 @@
+JD Skill,Resume Match,Status,Score
+Machine Learning,Machine Learning,Strong Match,1.0000
+Matplotlib,Matplotlib,Strong Match,1.0000
+NumPy,NumPy,Strong Match,1.0000
+Pandas,Pandas,Strong Match,1.0000
+Python,Python,Strong Match,1.0000
+Scikit-learn,Sklearn,Partial Match,0.5961
+XGBoost,XGBoost,Strong Match,1.0000
+algorithms,Algorithms,Strong Match,1.0000
+machine learning,Machine Learning,Strong Match,1.0000

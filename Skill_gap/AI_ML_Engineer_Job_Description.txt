@@ -1,0 +1,18 @@
+Job Description - AI/ML Engineer (Applied Machine Learning & GenAI)
+About the Role
+We are hiring an innovative AI/ML Engineer to develop intelligent solutions leveraging machine learning, generative AI, and data-driven insights. The role requires a strong foundation in ML algorithms, data preprocessing, and deployment of scalable AI systems.
+Responsibilities
+* Build, train, and evaluate ML models for prediction, classification, and analytics (e.g., property price prediction, customer churn).
+* Apply advanced techniques such as XGBoost, Random Forests, and SVMs.
+* Conduct EDA, feature engineering, and model optimization.
+* Work on Generative AI projects with LLMs, prompt engineering, and Google Vertex AI / OpenAI APIs.
+* Collaborate with teams to integrate ML/AI solutions into business products.
+* Research and propose innovative approaches to energy-efficient computing and AI integration.
+Required Skills
+* Strong expertise in Python, NumPy, Pandas, Scikit-learn, Matplotlib.Automation
+* Knowledge of supervised/unsupervised ML, evaluation metrics (RMSE, Precision, Recall, F1-score).
+* Familiarity with GenAI frameworks and APIs.
+* Strong problem-solving and analytical thinking skills.
+Preferred Skills
+* Research experience in green computing / edge-fog AI algorithms.
+* Exposure to cloud-based ML model deployment.
