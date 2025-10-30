@@ -93,11 +93,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ==============================================================================
-# VERBATIM CLASS DEFINITIONS FROM ALL PROVIDED FILES
-# ==============================================================================
 
-# --- Classes from `complete_pipeline.py` ---
 
 class DocumentUploader:
     """Handles file upload functionality with validation"""
@@ -2190,4 +2186,4 @@ class MainApp:
 
 if __name__ == "__main__":
     app = MainApp()
-    app.run()
+    app.run()\"# Trivial change to force a commit\" 
