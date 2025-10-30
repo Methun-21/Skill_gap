@@ -2186,4 +2186,4 @@ class MainApp:
 
 if __name__ == "__main__":
     app = MainApp()
-    app.run()\"# Trivial change to force a commit\" 
+    app.run()
