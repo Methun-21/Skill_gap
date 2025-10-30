@@ -4,4 +4,7 @@
 __pycache__/
 .states
 assets/external/
-.venv/
+.venv/\"model_cache/\"  
+\"output/\"  
+\".vscode/\" 
+\".venv/\" 
