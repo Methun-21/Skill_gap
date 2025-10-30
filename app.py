@@ -12,7 +12,6 @@ from io import BytesIO, StringIO
 from datetime import datetime
 import urllib.parse
 import json
-import random
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 
