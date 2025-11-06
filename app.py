@@ -12,7 +12,7 @@ from io import BytesIO, StringIO
 from datetime import datetime
 import urllib.parse
 import json
-from collections import Counter, defaultdict
+from collections import defaultdict
 from dataclasses import dataclass
 
 # NLP and ML Imports
@@ -913,7 +913,6 @@ class SkillExtractor:
             handler.setFormatter(formatter)
             logger.addHandler(handler)
         return logger
-# --- Classes from `milestone3.py` ---
 
 @dataclass
 class SkillMatch:
@@ -1066,7 +1065,6 @@ class SimilarityCalculator:
     
     def compute_cosine_similarity(self, embedding1: np.ndarray, 
                                   embedding2: np.ndarray) -> float:
-        # Reshape if needed
         if embedding1.ndim == 1:
             embedding1 = embedding1.reshape(1, -1)
         if embedding2.ndim == 1:
@@ -1255,16 +1253,6 @@ class SkillRanker:
     
     def rank_by_importance(self, skills: List[SkillMatch], 
                           importance_weights: Optional[Dict[str, float]] = None) -> List[SkillMatch]:
-        """
-        Rank skills by importance
-        
-        Args:
-            skills: List of SkillMatch objects
-            importance_weights: Optional weights for different factors
-            
-        Returns:
-            Ranked list of skills
-        """
         if not importance_weights:
             importance_weights = {
                 'similarity': 0.4,
@@ -1304,12 +1292,6 @@ class SkillRanker:
         return ranked_skills
     
     def categorize_by_urgency(self, missing_skills: List[SkillMatch]) -> Dict[str, List[SkillMatch]]:
-        """
-        Categorize missing skills by urgency
-        
-        Returns:
-            Dictionary with 'critical', 'important', and 'beneficial' keys
-        """
         categorized = {
             'critical': [],
             'important': [],
@@ -2186,4 +2168,4 @@ class MainApp:
 
 if __name__ == "__main__":
     app = MainApp()
-    app.run()\"# Trivial change to force a commit\" 
+    app.run()
