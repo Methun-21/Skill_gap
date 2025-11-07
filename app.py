@@ -25,7 +25,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import plotly.graph_objects as go
 import plotly.express as px
 
-# --- PAGE CONFIGURATION & STYLING ---
+
 st.set_page_config(
     page_title="AI Skill Gap Analyzer - Final Application",
     page_icon="🚀",
@@ -35,6 +35,7 @@ st.set_page_config(
 
 st.markdown("""
 <style>
+    /* --- 1. ROOT COLOR DEFINITIONS (From your original) --- */
     :root {
         --primary-color: #3b82f6;
         --secondary-color: #8b5cf6;
@@ -43,38 +44,95 @@ st.markdown("""
         --bg-color: #111827;
         --card-bg-color: #1f2937;
         --border-color: #374151;
+        
+        /* -- RGB versions for RGBA shadows (NEW) -- */
+        --primary-color-rgb: 59, 130, 246;
+        --secondary-color-rgb: 139, 92, 246;
     }
-    .stApp { background-color: var(--bg-color); color: var(--text-color); }
+
+    /* --- 2. KEYFRAME ANIMATIONS (NEW) --- */
+    @keyframes gradient-flow {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    
+    /* --- 3. BASE STYLES (From your original) --- */
+    .stApp {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+    
+    /* --- 4. ENHANCED TITLE (NEW Animation) --- */
     h1 {
         color: #f9fafb;
-        background: -webkit-linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+        background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--primary-color));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        background-size: 200% auto;
+        animation: gradient-flow 10s ease infinite;
     }
+    
     h2, h3 { color: #d1d5db; }
+
+    /* --- 5. ENHANCED BUTTONS (NEW Gradient Pan on Hover) --- */
     .stButton > button {
         border-radius: 8px;
-        background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-        color: white; border: none; padding: 10px 24px; transition: all 0.3s ease;
-        box-shadow: 0 4px 15px 0 rgba(139, 92, 246, 0.3);
+        background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color), var(--primary-color));
+        background-size: 200% auto;
+        background-position: 0% 0%;
+        color: white;
+        border: none;
+        padding: 10px 24px;
+        transition: all 0.4s ease-in-out;
+        box-shadow: 0 4px 15px 0 rgba(var(--secondary-color-rgb), 0.3);
     }
-    .stButton > button:hover { transform: translateY(-2px); box-shadow: 0 6px 20px 0 rgba(139, 92, 246, 0.5); }
+    .stButton > button:hover {
+        background-position: 100% 0%;
+        box-shadow: 0 6px 20px 0 rgba(var(--secondary-color-rgb), 0.5);
+        transform: translateY(-2px);
+    }
+    
+    /* --- 6. TAB STYLING (From your original) --- */
     button[data-baseweb="tab"][aria-selected="true"] {
         background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-        color: white; border-radius: 8px 8px 0 0;
+        color: white;
+        border-radius: 8px 8px 0 0;
     }
+
+    /* --- 7. ENHANCED CARDS (NEW Hover Glow & Lift) --- */
     [data-testid="stExpander"], [data-testid="stMetric"], .stDataFrame, .custom-metric {
         background-color: var(--card-bg-color);
         border: 1px solid var(--border-color);
         border-radius: 10px;
         padding: 1rem;
         height: 100%;
+        transition: all 0.3s ease;
     }
-    .skill-tag { display: inline-block; padding: 6px 12px; margin: 4px; border-radius: 16px; font-weight: 500; border: 1px solid transparent; }
-    .tech-skill { background-color: rgba(59, 130, 246, 0.2); border-color: #3b82f6; color: #93c5fd; }
-    .soft-skill { background-color: rgba(168, 85, 247, 0.2); border-color: #a855f7; color: #d8b4fe; }
+    [data-testid="stMetric"]:hover, [data-testid="stExpander"]:hover, .stDataFrame:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px 0 rgba(var(--primary-color-rgb), 0.2);
+        border-color: var(--primary-color);
+    }
 
-    /* --- NEW STYLES TO ADD --- */
+    /* --- 8. ENHANCED SKILL TAGS (NEW Hover Scale) --- */
+    .skill-tag {
+        display: inline-block;
+        padding: 6px 12px;
+        margin: 4px;
+        border-radius: 16px;
+        font-weight: 500;
+        border: 1px solid transparent;
+        transition: all 0.2s ease;
+    }
+    .skill-tag:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.3);
+    }
+    .tech-skill { background-color: rgba(var(--primary-color-rgb), 0.2); border-color: var(--primary-color); color: #93c5fd; }
+    .soft-skill { background-color: rgba(var(--secondary-color-rgb), 0.2); border-color: var(--secondary-color); color: #d8b4fe; }
+
+    /* --- 9. METRIC STYLES (From your original) --- */
     .metric-label {
         font-size: 1rem;
         color: var(--text-color);
@@ -86,14 +144,42 @@ st.markdown("""
         font-weight: 600;
         letter-spacing: -0.025em;
     }
-    .green-text { color: #28a745 !important; }
+    .green-text { color: var(--accent-color) !important; }
     .yellow-text { color: #ffc107 !important; }
     .red-text { color: #dc3545 !important; }
 
+    /* --- 10. NEW STYLES FOR WIDGETS (NEW) --- */
+    
+    /* --- Sidebar --- */
+    [data-testid="stSidebar"] {
+        background-color: #141c2d; /* Slightly different from main BG */
+        border-right: 1px solid var(--border-color);
+    }
+    
+    /* --- Sliders --- */
+    [data-testid="stSlider"] div[role="slider"] {
+        background-color: var(--accent-color); /* Green thumb */
+    }
+    [data-testid="stSlider"] .st-b7 {
+        background-color: var(--accent-color); /* Green track */
+    }
+    
+    /* --- Text Inputs --- */
+    [data-testid="stTextInput"] input {
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        padding: 10px;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition: all 0.2s ease;
+    }
+    [data-testid="stTextInput"] input:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 8px 0 rgba(var(--primary-color-rgb), 0.5);
+        outline: none;
+    }
 </style>
 """, unsafe_allow_html=True)
-
-
 
 class DocumentUploader:
     """Handles file upload functionality with validation"""
