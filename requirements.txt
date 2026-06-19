@@ -4,7 +4,7 @@ numpy==2.3.3
 PyPDF2==3.0.1
 python-docx==1.2.0
 spacy==3.8.7
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
 sentence-transformers==5.1.1
 scikit-learn==1.7.2
 plotly==6.3.0
